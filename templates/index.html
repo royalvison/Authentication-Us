@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Royal Vision Group</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: left;
+  font-size: 20px;
+  
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.headerbg {
+  background-image: url('./images/header_baner.png');
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  height:auto;
+}
+
+.button:hover {
+  background-color: #555;
+  height:auto;
+}
+
+@media screen and (max-width: 200px) {
+  .column {
+    width: 80%;
+    height:auto;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section headerbg">
+  <h1  style="font-family: Agency FB;height:auto; font-size: 50px" >Welcome to Our Jounry.</h1>
+  <p>We can help you to get Authentication services.</p>
+  <p></p>
+</div>
+
+<u><i><h1 style="text-align:center">Our Team.</h1></i></u>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="./images/man.png" alt="Ravi"  style="height:auto;"></center>
+      <div class="container">
+        <h2>Ravi .P. Mendhe</h2>
+        <p class="title">Architecture and Interior Designer</p>
+        <p>Full-Stack Development skills, Royal Vision Group Head .</p>
+        <p>ravimendherv@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="./images/woman.png" alt="Pranita"  style="height:auto"; ></center>
+      <div class="container">
+        <h2>Pranita .P. Mendhe</h2>
+        <p class="title">Full-Stack Developer</p>
+        <p>Full-Stack Development skills, Angular Developer, Royal Vision Group Head.</p>
+        <p>pranita.p.mendhe@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <center><img src="./images/man.png" alt="Raj" style="height:auto;"></center>
+      <div class="container">
+        <h2>Raj .P. Mendhe</h2>
+        <p class="title">Co-Designer</p>
+        <p>Backend Developer Skills, Royal Vision Group Head.</p>
+        <p>rpm.mendhe@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
